@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Garvit's Developer Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            background-color: rgb(0, 0, 33);
+            color: white;
+            font-family: 'Poppins', sans-serif;
+        }
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 80px;
+            background-color: rgb(5, 5, 48);
+        }
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+        nav ul li {
+            list-style: none;
+            margin: 0 23px;
+        }
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+        }
+        nav ul li a:hover {
+            color: rgb(211, 211, 240);
+            font-size: 1.3rem;
+        }
+        main hr{
+            border:0;
+            background: #9c97f1;
+            height:1.2px;
+            margin: 60px 84px;
+        }
+        .left {
+            font-size: 1.5rem;
+        }
+        .firstSection {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin: 130px 0;
+        }
+        .firstSection > div {
+            width: 30%;
+        }
+        .leftSection {
+            font-size: 3rem;
+        }
+        .rightSection img {
+            width: 80%;
+            display: block;
+            margin: 0 auto;
+        }
+        .purple {
+            color: rgb(112, 54, 165);
+        }
+        .text-gray{
+            color:gray
+        }
+        #element
+        {
+            color:rgb(170,107,228);
+        }
+        .secondSection
+        {
+            max-width:80vw;
+            margin: auto;
+            height:80vh;
+        }
+        .secondSection h1{
+            font-size: 1.9 rem;
+        }
+        .secondSection .box{
+            background: white;
+            width : 80 vw;
+            height:2px;
+            margin:56px 0;
+            display:flex;
+
+        }
+        .secondSection .vertical{
+            height: 93px;
+            width: 1px;
+            background-color: white;
+            margin: 0 100px;
+        }
+        .image-top{
+            width:23px;
+            position: relative;
+            top:-32px;
+            left:-9px;
+
+        }
+        .vertical-title
+        {
+            positon:relative;
+            top:75px;
+            width: 150px;
+
+        }
+        .vertical-desc
+        {
+         position: relative;
+         top: 86px;
+         color: gray;
+         width: 150px;
+         font-size:9px;   
+
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="left">Garvit's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Contact me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="firstSection">
+            <div class="leftSection">
+                Hi, My Name is <span class="purple">Garvit</span>
+                <div>
+                    and I am a passionate
+                </div>
+                <span id="element"></span>
+            </div>
+            <div class="rightSection">
+                <img src="https://imgs.search.brave.com/eQu7pLxgQtv9GTeeAg6Q3pdc328XcHzg7spfp5dziT8/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9tYWdl/bnRvMzYwLmItY2Ru/Lm5ldC93cC1jb250/ZW50L3VwbG9hZHMv/MjAxNy8wNi9wc2Qt/dG8tbWFnZW50by5w/bmc" alt="Web Developer Portfolio">
+            </div>
+        </section>
+        <hr>
+        <section class="secondSection">
+            <span class="text-gray"> What I have done so far</span>
+            <h1>Work Experience</h1>
+            <div class="box">
+                <div class="vertical">
+                    <img class=src="image-top"src="https://imgs.search.brave.com/YovVHdI9SwNw_lPnIm5BlhsvY1ArrauM24bw_qBUiSg/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9wbHVz/cG5nLmNvbS9pbWct/cG5nL3NvZnR3YXJl/LWRldmVsb3Blci1w/bmctY29tcHV0ZXIt/c29mdHdhcmUtZW5n/aW5lZXItMzIwLnBu/Zw"alt="">
+                </div>
+                
+                <div class="vertical-text">
+                    HTML DEVELOPER (2022-23)
+                </div>
+                <div class="vertical-desc">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Excepturi perferendis eum iusto accusantium sequi, reiciendis 
+                    impedit nobis, totam, eaque similique quisquam ducimus laboriosam quis nam facere culpa unde officia omnis!
+                </div>
+                <div class="vertical"></div>
+                <div class="vertical"></div>
+        </div>
+
+        </section>
+
+    </main>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+          strings: ['Web Developer', 'Graphic Designer','Web Designer','Video Editor'],
+          typeSpeed: 50,
+        });
+      </script>
+</body>
+</html>

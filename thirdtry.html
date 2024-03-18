@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Garvit's Developer Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            background-color: rgb(0, 0, 33);
+            color: white;
+            font-family: 'Poppins', sans-serif;
+        }
+         nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 80px;
+            background-color: rgb(5, 5, 48);
+        }
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+        nav ul li {
+            list-style: none;
+            margin: 0 23px;
+        }
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+        }
+        nav ul li a:hover {
+            color: rgb(211, 211, 240);
+            font-size: 1.3rem;
+        }
+        main hr {
+            border: 0;
+            background: #9c97f1;
+            height: 1.2px;
+            margin: 60px 84px;
+        }
+        .left {
+            font-size: 1.5rem;
+        }
+        .firstSection {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin: 130px 0;
+        }
+        .firstSection > div {
+            width: 30%;
+        }
+        .leftSection {
+            font-size: 3rem;
+        }
+        .leftSection .buttons{
+            padding: 23px;
+        }
+        .leftSection .btn {
+            padding: 12px;
+            background: #1e2167;
+            color:white;
+            border: 2px solid white;
+            border-radius: 6px;
+            font-size:20px;
+            cursor:pointer;
+        }
+        .rightSection img {
+            width: 80%;
+            display: block;
+            margin: 0 auto;
+        }
+        .purple {
+            color: rgb(112, 54, 165);
+        }
+        .text-gray{
+            color:gray
+        }
+        #element
+        {
+            color:rgb(170,107,228);
+        }
+        .secondSection {
+            max-width: 80vw;
+            margin: auto;
+            padding: 0 20px;
+            color: white;
+        }
+        .secondSection h1 {
+            font-size: 1.9rem;
+            margin-top: 40px; /* Adjusted margin */
+        }
+        .box {
+            margin: 56px 0;
+            display: flex;
+            align-items: flex-start; /* Adjusted alignment */
+        }
+        .vertical {
+            flex-grow: 1;
+            height: 2px;
+            background-color: white;
+        }
+        .vertical img {
+            width: 23px;
+            margin-top: -32px;
+            margin-right: 10px;
+        }
+        .vertical-text {
+            margin: 0 20px;
+            font-size: 1.2rem;
+        }
+        .vertical-desc {
+            flex-grow: 1;
+            color: gray;
+            font-size: 0.9rem;
+        }
+        footer{
+            background-color :#0e0e1a;
+            height: 233px;
+        }
+        .footer{
+            display:flex;
+            padding: 23px 122px;
+            justify-content:space-evenly;
+        }
+        .footer ul{
+            list-style: none;
+        }
+        .footer > div{
+            width:123px;
+
+        }
+        footer .footer-rights{
+            text-align: center;
+            color: gray;
+            padding: 12px 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="left">Garvit's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Contact me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="firstSection">
+            <div class="leftSection">
+                Hi, My Name is <span class="purple">Garvit</span>
+                <div>and I am a passionate</div>
+
+                <span id="element"></span>
+                <div class="buttons"></div>
+                <button class="btn">Download Resume</button>
+                <button class="btn">visit Github</button>
+            </div>
+            <div class="rightSection">
+                <img src="https://imgs.search.brave.com/eQu7pLxgQtv9GTeeAg6Q3pdc328XcHzg7spfp5dziT8/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9tYWdl/bnRvMzYwLmItY2Ru/Lm5ldC93cC1jb250/ZW50L3VwbG9hZHMv/MjAxNy8wNi9wc2Qt/dG8tbWFnZW50by5w/bmc" alt="Web Developer Portfolio">
+            </div>
+        </section>
+        <hr>
+        <section class="secondSection">
+            <span class="text-gray">What I have done so far</span>
+            <h1>Work Experience</h1>
+            <div class="box">
+                <div class="vertical">
+                    <img src="https://imgs.search.brave.com/4B8U2tO78WuVDLhD75WeoU0Fh2LsYOGo3z2l0nWmi1w/rs:fit:500:0:0/g:ce/aHR0cHM6Ly93d3cu/dzNzY2hvb2xzLmNv/bS93aGF0aXMvaW1n/X2h0bWwuanBn" alt="">
+                </div>
+                <div class="vertical-text">
+                    HTML DEVELOPER (2022-23)
+                </div>
+                <div class="vertical-desc">
+                    An HTML developer specializes in creating and structuring web pages using Hypertext Markup Language (HTML). They possess a deep understanding of HTML syntax, semantics, and best practices to ensure web content is accessible, well-organized, and properly displayed across various devices and browsers. HTML developers often collaborate with designers and backend developers to bring web projects to life, ensuring seamless integration of design and functionality."
+                </div>
+                <div class="vertical"></div>
+            </div>
+            <div class="box">
+                <div class="vertical">
+                    <img src="https://imgs.search.brave.com/Sq_DXvvN46BFN0SoLdZeWb-iX5MogL6mQd83Ixp2P1g/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9jZG4u/ZnJlZWJpZXN1cHBs/eS5jb20vbG9nb3Mv/bGFyZ2UvMngvcHl0/aG9uLTUtbG9nby1w/bmctdHJhbnNwYXJl/bnQucG5n" alt="">
+                </div>
+                <div class="vertical-text">
+                    learned python(2023)
+                </div>
+                <div class="vertical-desc">
+                    
+Python is a high-level, interpreted programming language known for its simplicity, readability, and versatility. Developed by Guido van Rossum and first released in 1991, Python has gained widespread popularity due to its ease of learning and extensive libraries, making it suitable for various applications including web development, data analysis, artificial intelligence, machine learning, scientific computing, automation, and more. </div>
+                <div class="vertical"></div>
+            </div>
+            <div class="box">
+                <div class="vertical">
+                    <img src="https://imgs.search.brave.com/8e-pGZG6H3XynUPuShxsLhmYeY1urGAIeEMH9yweZi0/rs:fit:860:0:0/g:ce/aHR0cHM6Ly93d3cu/ZWR1Y2F0aXZlLmlv/L2Nkbi1jZ2kvaW1h/Z2UvZm9ybWF0PWF1/dG8sd2lkdGg9MTIw/MCxxdWFsaXR5PTc1/L2FwaS9wYWdlLzUy/OTU0MDc4MTU0NTg4/MTYvaW1hZ2UvZG93/bmxvYWQvNDgxMDA0/ODA3MzYyOTY5Ng" alt="">
+                </div>
+                <div class="vertical-text">
+                    learned c and c++(2023-24)
+                </div>
+                <div class="vertical-desc">
+                    Learning C and C++ provides a solid foundation in programming fundamentals, including memory management and low-level manipulation. These languages are widely used in systems programming, game development, and performance-critical applications. Mastering them opens doors to understanding computer architecture and transitioning to other languages with ease.
+                </div>
+                <div class="vertical"></div>
+            </div>
+            <div class="box">
+                <div class="vertical">
+                    <img src="https://imgs.search.brave.com/LCplCMXqiy2p2g0JfNfgQ6EmlYMdz4Xt0g5E0O6gZYk/rs:fit:500:0:0/g:ce/aHR0cHM6Ly90NC5m/dGNkbi5uZXQvanBn/LzAxLzg5LzM1Lzg5/LzM2MF9GXzE4OTM1/ODkxMl9aMWhLUm1F/dFo2aHljTWZFcWFF/OERSVWZYUnRleUoy/Ty5qcGc" a lt="">
+                </div>
+                <div class="vertical-text">
+                    learning DSA in c++
+                </div>
+                <div class="vertical-desc">
+                    Learning Data Structures and Algorithms (DSA) in C++ is crucial for mastering efficient problem-solving techniques and understanding fundamental principles in computer science. By studying DSA in C++, you'll gain proficiency in implementing and analyzing various data structures like arrays, linked lists, stacks, queues, trees, graphs, and hash tables, as well as algorithms such as searching, sorting, recursion, dynamic programming, and graph traversal. This knowledge equips you with the skills needed to tackle complex programming challenges, improve code performance, and excel in technical interviews and competitive programming competitions.    
+                </div>
+                <div class="vertical"></div>
+            </div>
+            
+        </section>
+    </main>
+    <footer>
+        <div class="footer">
+        <div class="footer-first">
+            <h3> Garvit's Developer Portfolio</h3>
+        </div>
+        <div class="footer-second">
+            <ul>
+                <li> HOME</li>
+                <li> About</li>
+                <li> contact me</li>
+                <li> services</li>
+            </ul>
+        </div>
+    </div>
+    <div class="fotter-rights">
+       copyright &#169; www.garvit'sportfolio.com|| all Rights Reserved
+
+    </div>
+
+
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Developer', 'Graphic Designer', 'Web Designer', 'Video Editor'],
+            typeSpeed: 50,
+        });
+    </script>
+</body>
+</html>
